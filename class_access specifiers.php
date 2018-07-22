@@ -19,6 +19,7 @@ class car{
 }
 $bmw = new car();
 echo $bmw->car_wheels; //public- so it will executes
+echo $bmw->car_doors;
 //echo $bmw->car_doors;  //protected - it will executes only inside the class
 //echo $bmw->car_seats;  //private - it will executes only in parent class.
 echo "<br>";
